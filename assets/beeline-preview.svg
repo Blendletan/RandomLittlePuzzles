@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img">
+  <rect width="480" height="260" fill="#edf0e7"/>
+  <g transform="translate(128 3)" stroke="#56615d" stroke-width="2">
+    <defs>
+      <path id="hex" d="M24 0L45 12V36L24 48L3 36V12Z"/>
+    </defs>
+    <g fill="#e1e3d9">
+      <use href="#hex" x="88" y="0"/>
+      <use href="#hex" x="66" y="38"/><use href="#hex" x="110" y="38"/>
+      <use href="#hex" x="44" y="76"/><use href="#hex" x="88" y="76"/><use href="#hex" x="132" y="76"/>
+      <use href="#hex" x="22" y="114"/><use href="#hex" x="66" y="114"/><use href="#hex" x="110" y="114"/><use href="#hex" x="154" y="114"/>
+      <use href="#hex" x="44" y="152"/><use href="#hex" x="88" y="152"/><use href="#hex" x="132" y="152"/>
+      <use href="#hex" x="66" y="190"/><use href="#hex" x="110" y="190"/>
+    </g>
+    <g fill="#9fd2bf">
+      <use href="#hex" x="88" y="0"/><use href="#hex" x="110" y="38"/><use href="#hex" x="88" y="76"/><use href="#hex" x="66" y="114"/><use href="#hex" x="88" y="152"/><use href="#hex" x="66" y="190"/>
+    </g>
+    <g fill="#ffd86f">
+      <use href="#hex" x="88" y="76"/>
+    </g>
+    <g fill="#26332e" stroke="none" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">
+      <text x="115" y="31">B</text>
+      <text x="93" y="69">E</text><text x="137" y="69">E</text>
+      <text x="71" y="107">L</text><text x="115" y="107">I</text><text x="159" y="107">N</text>
+      <text x="49" y="145">P</text><text x="93" y="145">A</text><text x="137" y="145">T</text><text x="181" y="145">H</text>
+      <text x="71" y="183">H</text><text x="115" y="183">I</text><text x="159" y="183">V</text>
+      <text x="93" y="221">E</text><text x="137" y="221">S</text>
+    </g>
+  </g>
+</svg>

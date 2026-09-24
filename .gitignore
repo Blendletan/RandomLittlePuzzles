@@ -1,0 +1,9 @@
+# Local design references retained outside the published site
+/ChatGPT Image Sep 22, 2026, 01_30_17 PM.png
+/rmlp-logo-full.svg
+/rmlp-logo-mark.svg
+
+# Operating-system clutter
+.DS_Store
+Thumbs.db
+Desktop.ini

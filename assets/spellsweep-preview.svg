@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 260" role="img">
+  <rect width="480" height="260" fill="#e8edf0"/>
+  <g transform="translate(130 20)" stroke="#46545d" stroke-width="2">
+    <g fill="#ffffff">
+      <rect x="0" y="0" width="40" height="40" rx="6"/><rect x="45" y="0" width="40" height="40" rx="6"/><rect x="90" y="0" width="40" height="40" rx="6"/><rect x="135" y="0" width="40" height="40" rx="6"/><rect x="180" y="0" width="40" height="40" rx="6"/>
+      <rect x="0" y="45" width="40" height="40" rx="6"/><rect x="45" y="45" width="40" height="40" rx="6"/><rect x="90" y="45" width="40" height="40" rx="6"/><rect x="135" y="45" width="40" height="40" rx="6"/><rect x="180" y="45" width="40" height="40" rx="6"/>
+      <rect x="0" y="90" width="40" height="40" rx="6"/><rect x="45" y="90" width="40" height="40" rx="6"/><rect x="90" y="90" width="40" height="40" rx="6"/><rect x="135" y="90" width="40" height="40" rx="6"/><rect x="180" y="90" width="40" height="40" rx="6"/>
+      <rect x="0" y="135" width="40" height="40" rx="6"/><rect x="45" y="135" width="40" height="40" rx="6"/><rect x="90" y="135" width="40" height="40" rx="6"/><rect x="135" y="135" width="40" height="40" rx="6"/><rect x="180" y="135" width="40" height="40" rx="6"/>
+      <rect x="0" y="180" width="40" height="40" rx="6"/><rect x="45" y="180" width="40" height="40" rx="6"/><rect x="90" y="180" width="40" height="40" rx="6"/><rect x="135" y="180" width="40" height="40" rx="6"/><rect x="180" y="180" width="40" height="40" rx="6"/>
+    </g>
+    <g fill="#9fd2bf">
+      <rect x="0" y="0" width="40" height="40" rx="6"/><rect x="45" y="45" width="40" height="40" rx="6"/><rect x="90" y="45" width="40" height="40" rx="6"/><rect x="135" y="90" width="40" height="40" rx="6"/><rect x="180" y="135" width="40" height="40" rx="6"/><rect x="180" y="180" width="40" height="40" rx="6"/>
+    </g>
+    <rect x="90" y="90" width="40" height="40" rx="6" fill="#d9c7ed" stroke-dasharray="4 3"/>
+    <g fill="#202124" stroke="none" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">
+      <text x="20" y="27">S</text><text x="65" y="27">E</text><text x="110" y="27">A</text><text x="155" y="27">R</text><text x="200" y="27">C</text>
+      <text x="20" y="72">L</text><text x="65" y="72">W</text><text x="110" y="72">E</text><text x="155" y="72">T</text><text x="200" y="72">H</text>
+      <text x="20" y="117">P</text><text x="65" y="117">A</text><text x="110" y="117">?</text><text x="155" y="117">I</text><text x="200" y="117">N</text>
+      <text x="20" y="162">U</text><text x="65" y="162">Z</text><text x="110" y="162">Z</text><text x="155" y="162">L</text><text x="200" y="162">E</text>
+      <text x="20" y="207">W</text><text x="65" y="207">O</text><text x="110" y="207">R</text><text x="155" y="207">D</text><text x="200" y="207">S</text>
+    </g>
+  </g>
+</svg>
