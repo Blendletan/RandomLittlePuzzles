@@ -25,7 +25,7 @@ As of September 23, 2026, this folder contains:
 - this roadmap and `AGENTS.md`;
 - a complete first-pass static landing page and local SVG card artwork.
 
-The landing page is implemented and locally verified. The optimized social-preview image and its sharing metadata are complete. The folder is not yet a Git repository, and GitHub Pages release work remains open.
+The landing page is implemented, published, and verified at its production GitHub Pages URL. The optimized social-preview image and its sharing metadata are live. The local folder tracks the public `Blendletan/RandomLittlePuzzles` repository on `main`.
 
 The three live games and their source repositories were reviewed before this roadmap was written. Important findings are recorded in `AGENTS.md`, including the corrected **Word Web** display name and its three-starting-word description.
 
@@ -150,24 +150,26 @@ Implementation result (September 23, 2026): `assets/social-preview.png` is a 120
 
 Completion criteria: the landing page remains attractive, readable, and fully usable across the intended viewport range and normal third-party failure conditions.
 
-Verification result (September 23, 2026): Word Web, SpellSweep, and Beeline each returned HTTP 200, and the Ko-fi destination opened to the correct RMLP profile in a real browser. Removing the remote font requests left the page readable and free of horizontal overflow at the narrow test viewport. The console contained no errors; GoatCounter's expected `localhost` non-counting warning was the only warning. A second browser engine was not available in the current test environment and remains an optional production smoke check.
+Verification result (September 23, 2026): Word Web, SpellSweep, and Beeline each returned HTTP 200, and the Ko-fi destination opened to the correct RMLP profile in a real browser. Removing the remote font requests left the page readable and free of horizontal overflow at the narrow test viewport. The console contained no errors; GoatCounter's expected `localhost` non-counting warning was the only warning. A second browser engine was not available in the current test environment. Robert plans additional production checks across several desktop, tablet, and mobile browsers.
 
 ## Milestone 6: Git and GitHub Pages Release
 
-- [ ] Initialize this folder as a Git repository using `main` as the primary branch.
-- [ ] Review the complete initial file set and exclude local-only or unnecessary assets.
-- [ ] Create the `Blendletan/RandomLittlePuzzles` GitHub repository.
-- [ ] Add it as the `origin` remote.
-- [ ] Commit the reviewed landing-page implementation.
-- [ ] Push `main` to GitHub.
-- [ ] Configure GitHub Pages to publish the static site from the repository root on `main`.
-- [ ] Verify `https://blendletan.github.io/RandomLittlePuzzles/` loads successfully.
-- [ ] Verify all CSS, images, favicon, and social metadata use valid deployed paths.
-- [ ] Verify all three game links and Ko-fi from the deployed page.
-- [ ] Verify GoatCounter page views and constant CTA events on the deployed page.
-- [ ] Perform a final desktop and phone-sized smoke test against the production URL.
+- [x] Initialize this folder as a Git repository using `main` as the primary branch.
+- [x] Review the complete initial file set and exclude local-only or unnecessary assets.
+- [x] Create the `Blendletan/RandomLittlePuzzles` GitHub repository.
+- [x] Add it as the `origin` remote.
+- [x] Commit the reviewed landing-page implementation.
+- [x] Push `main` to GitHub.
+- [x] Configure GitHub Pages to publish the static site from the repository root on `main`.
+- [x] Verify `https://blendletan.github.io/RandomLittlePuzzles/` loads successfully.
+- [x] Verify all CSS, images, favicon, and social metadata use valid deployed paths.
+- [x] Verify all three game links and Ko-fi from the deployed page.
+- [x] Verify GoatCounter page views and constant CTA events on the deployed page.
+- [x] Perform a final desktop and phone-sized smoke test against the production URL.
 
-Completion criteria: the public URL is live, all required assets and links work, and the first RMLP hub is ready to share.
+Release result (September 23, 2026): the public repository and GitHub Pages site are live. Production checks at 1440×900 and 390×844 found no horizontal overflow; all page images and stylesheets loaded, the 1200×630 sharing image resolved, the canonical and Open Graph URLs were correct, and the browser console was clean. GoatCounter loaded with the expected page-view endpoint and five constant CTA event labels.
+
+Completion criteria: the public URL is live, all required assets and links work, and the first RMLP hub is ready to share. Complete.
 
 ## Milestone 7: Post-launch Ecosystem Follow-up
 
@@ -196,4 +198,4 @@ Completion criteria: RMLP functions as a true two-way hub rather than only a pag
 
 ## Starting Point for the Next Work Session
 
-Begin Milestone 6 by initializing the repository, reviewing the final release file set, and creating the `Blendletan/RandomLittlePuzzles` GitHub repository. Then publish from `main`, verify the production URL and assets, and complete the production smoke checks.
+Collect Robert's multi-browser desktop, tablet, and mobile feedback. Address any release issues found there. Begin Milestone 7 only after a separate explicit request because it changes the three game repositories.

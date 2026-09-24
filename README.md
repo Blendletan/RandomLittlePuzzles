@@ -2,6 +2,8 @@
 
 The public landing page for **RMLP — Random Mind-bending Little Puzzles**.
 
+Live site: <https://blendletan.github.io/RandomLittlePuzzles/>
+
 The first release is a dependency-free static site for GitHub Pages. It links to the three current daily puzzles:
 
 - [Word Web](https://blendletan.github.io/WordWeb/)
@@ -22,7 +24,7 @@ There is no package install or build step.
 
 ## Deployment
 
-The intended repository is `Blendletan/RandomLittlePuzzles`. GitHub Pages will publish the root of its `main` branch at:
+The repository is `Blendletan/RandomLittlePuzzles`. GitHub Pages publishes the root of its `main` branch at:
 
 <https://blendletan.github.io/RandomLittlePuzzles/>
 
